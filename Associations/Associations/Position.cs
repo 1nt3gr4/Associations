@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Homework
+{
+    class Position
+    {
+        public int BaseHourlyRate { get; set; }
+        public int Code { get; set; }
+        public string Name { get; set; }
+
+        public Position(int c, int b, string n) 
+        {
+            BaseHourlyRate = b;
+            Code = c;
+            Name = n;
+        }
+    }
+}
